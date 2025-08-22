@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c",
-    "prepare": "husky install"
+    "prepare": "pnpm run build"
   },
   "repository": "git+https://github.com/chatwoot/prosemirror-schema.git",
   "files": [

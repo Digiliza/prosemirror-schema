@@ -39,7 +39,7 @@ export const buildEditor = ({
   baseKeyMaps(schema),
   blocksInputRule(schema),
   textFormattingInputRules(schema),
-  linksInputRules(schema),
+  ...(enabledMenuOptions?.includes('link') ? [linksInputRules(schema)] : []),
   hrInputRules(schema),
   listInputRules(schema),
   dropCursor(),

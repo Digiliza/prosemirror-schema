@@ -1,23 +1,26 @@
 {
-  "name": "@chatwoot/prosemirror-schema",
+  "name": "@digiliza/prosemirror-schema",
   "version": "1.2.1",
-  "description": "Schema setup for using prosemirror in chatwoot. Based on 👉 https://github.com/ProseMirror/prosemirror-example-setup/",
+  "description": "Schema setup for using prosemirror in digiliza. Based on 👉 https://github.com/ProseMirror/prosemirror-example-setup/",
   "main": "dist/index.es.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c",
     "prepare": "pnpm run build"
   },
-  "repository": "git+https://github.com/chatwoot/prosemirror-schema.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digiliza/prosemirror-schema.git"
+  },
   "files": [
     "src/*"
   ],
-  "author": "Nithin David <nithin@chatwoot.com>",
+  "author": "Digiliza <desenvolvimento@digiliza.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chatwoot/prosemirror-schema/issues"
+    "url": "https://github.com/digiliza/prosemirror-schema/issues"
   },
-  "homepage": "https://github.com/chatwoot/prosemirror-schema#readme",
+  "homepage": "https://github.com/digiliza/prosemirror-schema#readme",
   "dependencies": {
     "markdown-it-sup": "^2.0.0",
     "prosemirror-commands": "^1.6.0",
